@@ -1,0 +1,78 @@
+#cdhighlight {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: -300px;
+  width: 100%;
+  transition: bottom 1s;
+  color: #FFF;
+  display: table;
+
+   height: 46px;
+   z-index: 999;
+}
+.cdhbutton
+{
+    background-color: rgb(241, 214, 0);
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 7px;
+    /*max-width: 150px;*/
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;    
+    color: #000;
+    max-width: 200px;
+}
+.cdhbutton:hover
+{
+	background-color: #FFFc26;
+}
+
+.cdhdiv1
+{
+	padding: 0px 0 0 30px;
+	text-align: left;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+.cdhdiv2
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+	.cdhdivtext
+	{
+		font-size: 15px;
+		margin: 7px 0px 7px -15px
+	}
+
+
+whitelink
+{
+	color:#FFF;
+}
+
+whitelink:hover {
+    color: #1495ff;
+}
+
+whitelink:link, whitelink:visited {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.white
+{ color: #FFF;	}
+
+/* mobiles */
+
+@media only screen and (max-width: 468px) {
+	.cdhdivtext
+	{
+		font-size: 13px;
+		margin: 3px 0px 3px -20px
+	}	
+}

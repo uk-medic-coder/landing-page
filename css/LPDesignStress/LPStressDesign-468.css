@@ -1,0 +1,56 @@
+@media only screen and (max-width: 468px) {
+
+	body {
+		font-size: 15px;
+		}
+
+	.headdivtxtline2
+	{
+		margin-bottom: 12px;
+		font-size: 22px;
+	}
+
+	.preheader{
+		font-size: 16px;
+		margin: 0 0 15px 0;		
+	}
+
+	p{
+		margin-bottom: 19px;
+	}	
+
+	h1{
+		font-size: 34px;
+	}
+
+	.meboxtop img {
+		float: left;
+		margin: 0 15px 20px 0;
+	}
+
+	.spacerL
+	{
+		margin: 10px 0 10px 0; font-size: 8px; 
+	}
+
+	.pagemainsection
+	{
+		margin: 0 5px 0 5px;
+		padding: 15px 20px 20px 20px;
+	}
+	.sectionmainheadline
+	{
+			margin: 0 -24px 0px -24px;	
+			padding: 10px 15px;
+	}
+
+	.footertext
+	{
+	font-size: 14px;
+	}
+	.footertext2
+	{
+	font-size: 12px;
+	}
+
+}

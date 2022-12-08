@@ -1,0 +1,232 @@
+
+/* MODAL */
+
+.acmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    text-align: center;
+}
+
+.acmodalcontent {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 700px;
+    display: block;
+}
+
+.acmodalclose {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 10px;
+    top: -15px; 
+    color: #000;
+    font-size: 40px;
+}
+
+.acmodalclose:hover,
+.acmodalclose:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.acmodaltext
+{
+	color: #000;
+	font-style: normal;
+}
+
+
+.acmodalspacer1
+{ margin: 20px 0 0px 0;	}
+
+.acmodalanimate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.acmodalgobutton{
+	font-weight: 700;
+	font-size: 24px;
+	
+    background-color: #dc3a3a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;	
+}
+
+.acmodalgobutton:hover {
+    opacity: 0.8;
+}
+
+.modalsmalltext{
+	font-size: 13px;
+	line-height: 20px;
+	margin: 10px 0 0 0;
+	color: #000;
+}
+
+.acmodalcancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.acmodalimgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+/* Avatar image */
+.acmodalimgavatar {
+    width: 40%;
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: -5px;	 
+}
+
+/* Add padding to containers */
+.acmodalcontainer {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+.modalsmalltext > a
+{
+	color: #3300FF;
+	text-decoration: underline;
+}
+.modalsmalltext > a:hover
+{
+	color: #3333FF;
+}
+
+.acmodalcontainer > h2
+{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}	
+.acmodalcontainer > input[type=text], .acmodalcontainer > input[type=password], .acmodalcontainer > input[type=email] 
+{
+	margin-top: 40px;
+}	
+
+
+/* ======= MEDIA QUERIES ======= */
+
+
+@media only screen and (max-width: 767px) 
+{
+	.acmodalcontent {
+		width: 96%;
+	}
+
+	span.psw {
+	        display: block;
+	        float: none;
+	    }
+	.acmodalcancelbtn {
+		width: 100%;
+	}
+	
+	.acmodalclose {
+	    font-size: 34px;
+	}
+	
+	.acmodalimgavatar {
+	    width: 80%;
+		max-width: 90px;
+		margin-bottom: -15px;	    
+	}
+	
+	.acmodalgobutton{
+		font-size: 19px;
+	}
+	
+	.modalsmalltext{
+		font-size: 12px;
+		line-height: 18px;
+		margin: 10px 0 0 0;
+	}
+
+	.acmodalspacer1
+	{ margin: 15px 0 0px 0;	}
+	
+	.acmodalcontainer
+	{
+		padding-top: 0px;
+	}
+	
+	.acmodalcontainer > h2
+	{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}	
+	.acmodalcontainer > input[type=text], .acmodalcontainer > input[type=password], .acmodalcontainer > input[type=email] 
+	{
+		margin-top: 25px;
+	}	
+}
+
+
+
+@media only screen and (max-width: 468px)
+{
+	.acmodalcontainer > h2
+	{
+		margin-top: 30px;
+		margin-bottom: 18px;
+	}
+	
+	.acmodalcontainer > input[type=text], .acmodalcontainer > input[type=password], .acmodalcontainer > input[type=email] 
+	{
+		margin-top: 16px;
+	}
+}
+

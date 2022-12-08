@@ -1,0 +1,137 @@
+.spchip {
+    display: inline-block;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0 0 1px #000, 0 1px 2px rgba(0, 0, 0, 0.05), 0 8px 50px rgba(0, 0, 0, 0.05);
+    border-color: #222;
+
+    left: 20px;
+    position: fixed;
+    bottom: 10px;
+    -webkit-animation-name: spinitmvt;
+    -webkit-animation-duration: 1.0s;
+    animation-name: spinitmvt;
+    animation-duration: 1.0s;
+    
+    width: 400px;
+    max-width: 92%;
+    
+}
+
+/* Add Animation */
+@-webkit-keyframes spinitmvt {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 10px; opacity: 1}
+}
+
+@keyframes spinitmvt {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 10px; opacity: 1}
+}
+
+.spchipmainimg {
+    margin: 0 10px 0 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.spdivmain
+{
+	width: 100%;
+	margin: 0 auto;
+}
+.spdiv1
+{
+	float: left;
+	width: 70px;
+}
+.spdiv2
+{
+	margin-left: 70px;
+}
+
+.sptxtlastrow
+{
+	color: #999;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.spverify
+{
+	color: #339900;
+}
+
+.spimgtick
+{
+	height: 9px;
+	width: auto;
+	margin-right: 5px;
+}
+.sptbl
+{
+	padding: 1px;
+	text-align: left;
+	 font-size: 13px;
+    line-height: 18px;
+    color: #000;
+}
+
+.spclose {
+    position: absolute;
+    right: 8px;
+    top: -1px; 
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.spclose:hover,
+.spclose:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* mobiles */
+
+@media only screen and (max-width: 468px) {
+
+	.spchip
+	{
+		width: 350px;
+	}
+	.spchipmainimg {
+		margin: 0 6px 0 0px;
+		height: 36px;
+		width: 36px;
+	}
+
+	.spdiv1
+	{
+		width: 40px;
+	}
+	.spdiv2
+	{
+		margin-left: 48px;
+	}
+
+	.sptxtlastrow
+	{
+		font-size: 10px;
+		margin-top: 1px;
+	}
+
+	.sptbl
+	{
+		 font-size: 11px;
+		line-height: 15px;
+	}
+
+	.spclose {
+		right: 8px;
+		top: -1px; 
+		font-size: 20px;
+	}
+
+}

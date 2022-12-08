@@ -1,0 +1,45 @@
+1,1541939174,Someone,Durham,United Kingdom,2
+2,1541939870,Someone,Wales,United Kingdom,1
+1,1541943216,Someone,Tennessee,United States,2
+1,1541944360,Someone,Newfoundland and Labrador,Canada,1
+2,1541946211,Someone,Carlisle,United Kingdom,1
+1,1541946306,Someone,Portsmouth,United Kingdom,2
+1,1541950198,Someone,Wales,United Kingdom,2
+2,1541950051,Someone,Rhode Island,United States,2
+1,1541953257,Someone,Scotland,United Kingdom,2
+1,1541954696,Someone,Montreal,Canada,1
+2,1541956756,Someone,Scotland,United Kingdom,1
+1,1541958115,Someone,Scotland,United Kingdom,1
+2,1541959980,Someone,Halifax,Canada,1
+1,1541962130,Someone,England,United Kingdom,2
+2,1541964066,Someone,Toronto,Canada,1
+1,1541964818,Someone,Wales,United Kingdom,2
+2,1541967453,Someone,Halifax,Canada,2
+1,1541968952,Someone,Scotland,United Kingdom,2
+1,1541971849,Someone,Nova Scotia,Canada,1
+2,1541971461,Someone,Nevada,United States,1
+1,1541975262,Someone,England,United Kingdom,1
+1,1541975352,Someone,England,United Kingdom,1
+1,1541975372,Someone,England,United Kingdom,2
+1,1541978182,Someone,Halifax,Canada,1
+2,1541978878,Someone,Wales,United Kingdom,2
+2,1541982050,Someone,Carlisle,United Kingdom,2
+1,1541984304,Someone,Chester,United Kingdom,2
+2,1541986984,Someone,Lincoln,United Kingdom,2
+1,1541987684,Someone,Kansas,United States,1
+2,1541990548,Someone,England,United Kingdom,2
+2,1541990712,Someone,Halifax,Canada,2
+1,1541992878,Someone,Coventry,United Kingdom,1
+1,1541993989,Someone,England,United Kingdom,1
+1,1541997755,Someone,Northern Ireland,United Kingdom,1
+1,1541997719,Someone,Halifax,Canada,1
+1,1542000149,Someone,Wales,United Kingdom,2
+1,1542000205,Someone,Vancouver,Canada,2
+1,1542004039,Someone,Ontario,Canada,1
+1,1542003914,Someone,Wales,United Kingdom,2
+2,1542007136,Someone,Scotland,United Kingdom,1
+1,1542008386,Someone,Portsmouth,United Kingdom,1
+1,1544526325,Someone,England,United Kingdom,2
+1,1544528376,Someone,England,United Kingdom,2
+1,1544528570,Someone,England,United Kingdom,1
+1,1544541750,Someone,England,United Kingdom,1

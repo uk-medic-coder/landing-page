@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1160px) {
+
+	.docbody {
+		margin-top: 16px;
+	}
+
+	.pagemainsection
+	{
+		max-width: 1200px;					/* bigger than viewport to avoid squashed issue */
+		margin: 0 15px 0 15px;
+		padding: 25px 56px 20px 56px;
+	}
+	.sectionmainheadline
+	{
+			margin: 0 -67px 0px -67px;
+			border-radius: 4px;
+	}
+}

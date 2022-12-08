@@ -1,0 +1,76 @@
+@media only screen and (max-width: 767px) 
+{
+
+	/* ==========================================================
+	 * SOME CHANGES TO BASE CSS
+	 * MAKE HERE AND NOT IN THE BASE CSS
+	 * ==========================================================*/
+
+	.listtablegreentick
+	{
+		margin-top: 5px;
+		margin-right: 4px;		
+		width: 25px;
+		height: 25px;
+	}
+
+
+	.docbody {
+		margin-top: 5px;
+	}
+	.spacerL
+	{
+		margin: 10px 0 10px 0; font-size: 8px; 
+	}	
+	
+	p{
+		margin-bottom: 22px;
+	}	
+	
+	.pagemainsection
+	{
+		margin: 0 8px 0 8px;
+		padding: 25px 36px 20px 36px;
+	}
+	.preheader{
+		font-size: 20px;
+		margin: 0 0 20px 0;
+	}
+
+	h1{
+		font-size: 42px;
+	}
+
+	.headdivtxtline2
+	{
+		margin-top: 34px;
+	}
+
+	.sectionmainheadline
+	{
+			margin: 0 -43px 0px -43px;		
+			padding: 10px;
+	}
+
+	.pagefooter{
+		margin: 40px 0 10px 0;
+	}
+	
+	.showmobileview{
+		display: inline-block;
+	}
+	.showdesktopview{
+		display: none;
+	}
+
+	.finalstepbox
+	{
+		margin: 20px 0 20px 0;
+	}
+	
+	.nomodaloptinfrm
+	{
+		padding: 20px;
+	}	
+	
+}
